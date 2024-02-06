@@ -7,6 +7,7 @@ export default function Home() {
 
         <TunnelToolbar
           projectId={process.env.TUNNEL_PROJECT_ID}
+          branch="main"
         />
       )}
     </main>
