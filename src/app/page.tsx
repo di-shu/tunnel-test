@@ -6,7 +6,7 @@ export default function Home() {
       {(process.env.APP_ENV === "staging") && (
 
         <TunnelToolbar
-          projectId={process.env.TUNNEL_PROJECT_ID}
+          projectId={process.env.TUNNEL_PROJECT_ID || 'id'}
           branch="main"
         />
       )}
