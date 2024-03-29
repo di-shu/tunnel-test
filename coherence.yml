@@ -1,12 +1,5 @@
 backend:
-  dev:
-    - npm
-    - run
-    - dev
-  prod:
-    - npm
-    - run
-    - prod
   type: backend
-  local_packages:
-    - node_modules
+  local_packages: ["node_modules"]
+  dev: ["npm", "run", "dev"]
+  prod: ["npm", "run", "dev"]
