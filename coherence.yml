@@ -1,5 +1,5 @@
-frontend:
-  type: frontend
+backend:
+  type: backend
   local_packages: ["node_modules"]
   dev: ["npm", "run", "dev"]
-  build: ["npm", "run", "build"]
+  prod: ["npm", "run", "start"]
