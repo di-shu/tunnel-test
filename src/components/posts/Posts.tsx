@@ -13,6 +13,7 @@ const fetchData = async (): Promise<Post[]> => {
 };
 
 const Posts: FC<IPostsProps> = ({ }) => {
+  console.log('posts page')
 
   const { isLoading, data } = useQuery('posts', fetchData);
   return (
